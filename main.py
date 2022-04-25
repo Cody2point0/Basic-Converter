@@ -1,0 +1,52 @@
+import math, os
+#####imperial#####
+def inft(inches):
+  return inches/12
+def ftin(feet):
+  return feet*12
+def ydft(yards):
+  return yards*3
+def ftyd(feet):
+  return feet/3
+def miyd(miles):
+  return miles*1760
+def ydmi(yards):
+  return yards/1760
+def miin(miles):
+  return miles*63360
+def mift(miles):
+  return miles*5280
+def ftmi(feet):
+  return feet/5280
+def inmi(inches):
+  return inches/63360
+def inyd(inches):
+  return inches/36
+def ydin(yards):
+  return yards*36
+#####metric#####
+def cmmm(centimeters):
+  return centimeters*10
+def mmcm(milimeters):
+  return milimeters/10
+def dimm(decimeters):
+  return decimeters*100
+def mmdim(milimeters):
+  return milimeters/100
+def mmmet(milimeters):
+  return milimeters/1000
+def metmm(meters):
+  return meters*1000
+def mmdam(milimeters):
+  return milimeters/10000
+def dammm(decameters):
+  return decameters*10000
+def mmhec(milimeters):
+  return milimeters/100000
+def hecmm(hexameters):
+  return hexameters*100000
+def mmkm(milimeters):
+  return milimeters/1000000
+def kmmm(kilometers):
+  return kilometers*1000000
+  
