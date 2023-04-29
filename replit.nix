@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.sudo
+    pkgs.firefox-esr-91-unwrapped
     pkgs.python38Full
   ];
   env = {
